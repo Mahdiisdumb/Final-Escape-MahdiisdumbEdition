@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: b24332189305d06469d5f4e9abe0c407
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8788759885022037419
+    second: sonic.exe_0
+  - first:
+      213: -926051976921727420
+    second: sonic.exe_1
+  - first:
+      213: 7747778791793943830
+    second: sonic.exe_2
+  - first:
+      213: 6285194770422794676
+    second: sonic.exe_3
+  - first:
+      213: 6760922167968694430
+    second: sonic.exe_4
+  - first:
+      213: 6107538573840057484
+    second: sonic.exe_5
+  - first:
+      213: -8112649336515339468
+    second: sonic.exe_6
+  - first:
+      213: -8977480748878332481
+    second: sonic.exe_7
+  - first:
+      213: -5945649719293329812
+    second: sonic.exe_8
+  - first:
+      213: 8553347405123972285
+    second: sonic.exe_9
+  - first:
+      213: -6283059248470716000
+    second: sonic.exe_10
+  - first:
+      213: -7799519265592746244
+    second: sonic.exe_11
+  - first:
+      213: -2456445811565444559
+    second: sonic.exe_12
+  - first:
+      213: -8659480427093675812
+    second: sonic.exe_13
+  - first:
+      213: 2128288196720015019
+    second: sonic.exe_14
+  - first:
+      213: -6787111198234513520
+    second: sonic.exe_15
+  - first:
+      213: 806885928793944286
+    second: sonic.exe_16
+  - first:
+      213: 5069429254242673425
+    second: sonic.exe_17
+  - first:
+      213: -5764995526311649986
+    second: sonic.exe_18
+  - first:
+      213: 4167804810709201663
+    second: sonic.exe_19
+  - first:
+      213: -1897323195345310420
+    second: sonic.exe_20
+  - first:
+      213: -4308810750794341621
+    second: sonic.exe_21
+  - first:
+      213: 5602960519013508174
+    second: sonic.exe_22
+  - first:
+      213: -4062715329682929174
+    second: sonic.exe_23
+  - first:
+      213: -1104830036457325739
+    second: sonic.exe_24
+  - first:
+      213: -7261465336271714243
+    second: sonic.exe_25
+  - first:
+      213: -6406895917795325529
+    second: sonic.exe_26
+  - first:
+      213: -3357638661914610137
+    second: sonic.exe_27
+  - first:
+      213: 7149951548892043036
+    second: sonic.exe_28
+  - first:
+      213: 8889712886444082664
+    second: sonic.exe_29
+  - first:
+      213: -2021974935828929600
+    second: sonic.exe_30
+  - first:
+      213: -3856925041136380474
+    second: sonic.exe_31
+  - first:
+      213: -2109766832130101850
+    second: sonic.exe_32
+  - first:
+      213: -5317272693969754334
+    second: sonic.exe_33
+  - first:
+      213: 5408870864702296160
+    second: sonic.exe_34
+  - first:
+      213: -7936231135443524294
+    second: sonic.exe_35
+  - first:
+      213: 3818350818535178167
+    second: sonic.exe_36
+  - first:
+      213: 2194065857153806342
+    second: sonic.exe_37
+  - first:
+      213: -6654868826683489798
+    second: sonic.exe_38
+  - first:
+      213: -5948465915862240531
+    second: sonic.exe_39
+  - first:
+      213: 8755520523524161116
+    second: sonic.exe_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sonic.exe_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba501f2fc82f7f970800000000000000
+      internalID: 8788759885022037419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e380822a00623f0800000000000000
+      internalID: -926051976921727420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 283
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615ee2bf2c3a58b60800000000000000
+      internalID: 7747778791793943830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 275
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b98133e75f793750800000000000000
+      internalID: 6285194770422794676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 293
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9086df04ee93dd50800000000000000
+      internalID: 6760922167968694430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 277
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c848bb949f552c450800000000000000
+      internalID: 6107538573840057484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 299
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bd1bd39641a6f80800000000000000
+      internalID: -8112649336515339468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 300
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdf239d2d4996380800000000000000
+      internalID: -8977480748878332481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_8
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 301
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ebe9ae41fcc7da0800000000000000
+      internalID: -5945649719293329812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc6ceab52893b670800000000000000
+      internalID: 8553347405123972285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_10
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a19b2017e61ec8a0800000000000000
+      internalID: -6283059248470716000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_11
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe57833d8a82c390800000000000000
+      internalID: -7799519265592746244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_12
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13245a79c83f8edd0800000000000000
+      internalID: -2456445811565444559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_13
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd032a37e6853d780800000000000000
+      internalID: -8659480427093675812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_14
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba63729b6d2398d10800000000000000
+      internalID: 2128288196720015019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_15
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 295
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fe72a23565fc1a0800000000000000
+      internalID: -6787111198234513520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_16
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 305
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed036082a72a23b00800000000000000
+      internalID: 806885928793944286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_17
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 305
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113ab193c0b3a5640800000000000000
+      internalID: 5069429254242673425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_18
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 307
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d5a72fc1f9effa0800000000000000
+      internalID: -5764995526311649986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_19
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 273
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff27c73b46407d930800000000000000
+      internalID: 4167804810709201663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_20
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 289
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d65553b9a5ba5e0800000000000000
+      internalID: -1897323195345310420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_21
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 289
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03e48283770434c0800000000000000
+      internalID: -4308810750794341621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_22
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 215
+        width: 162
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44a65208e6b1cd40800000000000000
+      internalID: 5602960519013508174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_23
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 273
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae907becee55e97c0800000000000000
+      internalID: -4062715329682929174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 148
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b77cb7feadaa0f0800000000000000
+      internalID: -1104830036457325739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 143
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3846b2efb71a3b90800000000000000
+      internalID: -7261465336271714243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 143
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9c8e2ab122617a0800000000000000
+      internalID: -6406895917795325529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 143
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72636703d654761d0800000000000000
+      internalID: -3357638661914610137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_28
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 143
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17d6f83d0bb93360800000000000000
+      internalID: 7149951548892043036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_29
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 143
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e546bf35ca9e5b70800000000000000
+      internalID: 8889712886444082664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_30
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 148
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c36c2d328080f3e0800000000000000
+      internalID: -2021974935828929600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_31
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 143
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5d1c52c13797ac0800000000000000
+      internalID: -3856925041136380474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_32
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 143
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adebf38e3a98b2e0800000000000000
+      internalID: -2109766832130101850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_33
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 143
+        width: 91
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2276c0e28a04536b0800000000000000
+      internalID: -5317272693969754334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_34
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 143
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0605a8ed46b201b40800000000000000
+      internalID: 5408870864702296160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_35
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 143
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a356e7c84d7dcd190800000000000000
+      internalID: -7936231135443524294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_36
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 185
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf7c96c6d18df430800000000000000
+      internalID: 3818350818535178167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_37
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 161
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600377db543e27e10800000000000000
+      internalID: 2194065857153806342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_38
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 177
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1c5b6af0825a3a0800000000000000
+      internalID: -6654868826683489798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_39
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 177
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2338e04cdc27da0800000000000000
+      internalID: -5948465915862240531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonic.exe_40
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 165
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ebc44078bd18970800000000000000
+      internalID: 8755520523524161116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sonic.exe_0: 8788759885022037419
+      sonic.exe_1: -926051976921727420
+      sonic.exe_10: -6283059248470716000
+      sonic.exe_11: -7799519265592746244
+      sonic.exe_12: -2456445811565444559
+      sonic.exe_13: -8659480427093675812
+      sonic.exe_14: 2128288196720015019
+      sonic.exe_15: -6787111198234513520
+      sonic.exe_16: 806885928793944286
+      sonic.exe_17: 5069429254242673425
+      sonic.exe_18: -5764995526311649986
+      sonic.exe_19: 4167804810709201663
+      sonic.exe_2: 7747778791793943830
+      sonic.exe_20: -1897323195345310420
+      sonic.exe_21: -4308810750794341621
+      sonic.exe_22: 5602960519013508174
+      sonic.exe_23: -4062715329682929174
+      sonic.exe_24: -1104830036457325739
+      sonic.exe_25: -7261465336271714243
+      sonic.exe_26: -6406895917795325529
+      sonic.exe_27: -3357638661914610137
+      sonic.exe_28: 7149951548892043036
+      sonic.exe_29: 8889712886444082664
+      sonic.exe_3: 6285194770422794676
+      sonic.exe_30: -2021974935828929600
+      sonic.exe_31: -3856925041136380474
+      sonic.exe_32: -2109766832130101850
+      sonic.exe_33: -5317272693969754334
+      sonic.exe_34: 5408870864702296160
+      sonic.exe_35: -7936231135443524294
+      sonic.exe_36: 3818350818535178167
+      sonic.exe_37: 2194065857153806342
+      sonic.exe_38: -6654868826683489798
+      sonic.exe_39: -5948465915862240531
+      sonic.exe_4: 6760922167968694430
+      sonic.exe_40: 8755520523524161116
+      sonic.exe_5: 6107538573840057484
+      sonic.exe_6: -8112649336515339468
+      sonic.exe_7: -8977480748878332481
+      sonic.exe_8: -5945649719293329812
+      sonic.exe_9: 8553347405123972285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
