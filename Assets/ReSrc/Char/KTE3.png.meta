@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 0c3669aa4bd261a4ca8be998fb85f8ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7408310041464499331
+    second: KTE3_0
+  - first:
+      213: -444776032858729079
+    second: KTE3_1
+  - first:
+      213: 1589567559317286773
+    second: KTE3_2
+  - first:
+      213: 249279612165419431
+    second: KTE3_3
+  - first:
+      213: -3572499954205598266
+    second: KTE3_4
+  - first:
+      213: 8943924129326310236
+    second: KTE3_5
+  - first:
+      213: 42268753419288901
+    second: KTE3_6
+  - first:
+      213: 3714564124438082824
+    second: KTE3_7
+  - first:
+      213: 2253036133599492141
+    second: KTE3_8
+  - first:
+      213: -655548259791213819
+    second: KTE3_9
+  - first:
+      213: 4621233614913624066
+    second: KTE3_10
+  - first:
+      213: -6304943911531640230
+    second: KTE3_11
+  - first:
+      213: 5064065811414427139
+    second: KTE3_12
+  - first:
+      213: -3353944841822127439
+    second: KTE3_13
+  - first:
+      213: 5906602252796176320
+    second: KTE3_14
+  - first:
+      213: -6689796293749040147
+    second: KTE3_15
+  - first:
+      213: 2002444657112678953
+    second: KTE3_16
+  - first:
+      213: -7189349389077094653
+    second: KTE3_17
+  - first:
+      213: -1292120608991479079
+    second: KTE3_18
+  - first:
+      213: 7946010872801696668
+    second: KTE3_19
+  - first:
+      213: 1044600276967403678
+    second: KTE3_20
+  - first:
+      213: 1774990065762749559
+    second: KTE3_21
+  - first:
+      213: -8283905220409648495
+    second: KTE3_22
+  - first:
+      213: 7021152109647997289
+    second: KTE3_23
+  - first:
+      213: 1275944783684829118
+    second: KTE3_24
+  - first:
+      213: -6674978639835628624
+    second: KTE3_25
+  - first:
+      213: -1258100465863787230
+    second: KTE3_26
+  - first:
+      213: -2994916413711561344
+    second: KTE3_27
+  - first:
+      213: -7956647788393945476
+    second: KTE3_28
+  - first:
+      213: -7369617578328080627
+    second: KTE3_29
+  - first:
+      213: -6495436111121512683
+    second: KTE3_30
+  - first:
+      213: -170105071318268811
+    second: KTE3_31
+  - first:
+      213: 4172516314507475146
+    second: KTE3_32
+  - first:
+      213: -6015543639620423632
+    second: KTE3_33
+  - first:
+      213: -4282493523904672972
+    second: KTE3_34
+  - first:
+      213: -7549365325691185207
+    second: KTE3_35
+  - first:
+      213: -7106957582333505576
+    second: KTE3_36
+  - first:
+      213: -7627967535201319473
+    second: KTE3_37
+  - first:
+      213: -6535635698500195522
+    second: KTE3_38
+  - first:
+      213: -8851093766835427301
+    second: KTE3_39
+  - first:
+      213: -3699643223314611487
+    second: KTE3_40
+  - first:
+      213: 1437693443830879900
+    second: KTE3_41
+  - first:
+      213: -1854415888634960418
+    second: KTE3_42
+  - first:
+      213: 55242017388324078
+    second: KTE3_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KTE3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d739c88a445603990800000000000000
+      internalID: -7408310041464499331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98519dcfd86d3d9f0800000000000000
+      internalID: -444776032858729079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 214
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f6797f5474f0610800000000000000
+      internalID: 1589567559317286773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 214
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1fddc8c7e957300800000000000000
+      internalID: 249279612165419431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 214
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdd975383eeb6ec0800000000000000
+      internalID: -3572499954205598266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 214
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c532a82db933f1c70800000000000000
+      internalID: 8943924129326310236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 206
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541c7a0153b269000800000000000000
+      internalID: 42268753419288901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805ba8cf368cc8330800000000000000
+      internalID: 3714564124438082824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 173
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2831592d64644f10800000000000000
+      internalID: 2253036133599492141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 179
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50be40ab45607e6f0800000000000000
+      internalID: -655548259791213819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 178
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20855090d7be12040800000000000000
+      internalID: 4621233614913624066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 189
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a0560eae65088a0800000000000000
+      internalID: -6304943911531640230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 172
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306ae80660d274640800000000000000
+      internalID: 5064065811414427139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 162
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba30f2bfe46471d0800000000000000
+      internalID: -3353944841822127439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c72073547778f150800000000000000
+      internalID: 5906602252796176320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 148
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1d5307b11923a0800000000000000
+      internalID: -6689796293749040147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 138
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92284956ecc1acb10800000000000000
+      internalID: 2002444657112678953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 138
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f53e942dc4a3c90800000000000000
+      internalID: -7189349389077094653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 164
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daf91ee627711ee0800000000000000
+      internalID: -1292120608991479079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 170
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b9cbef9c6e54e60800000000000000
+      internalID: 7946010872801696668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 99
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90bae8da6a2f7e00800000000000000
+      internalID: 1044600276967403678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 119
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cc2ad7f0802a810800000000000000
+      internalID: 1774990065762749559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 140
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a9a709718a90d80800000000000000
+      internalID: -8283905220409648495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 90
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ad81e4a4207160800000000000000
+      internalID: 7021152109647997289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 90
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebffb80450115b110800000000000000
+      internalID: 1275944783684829118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 90
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbf649ea46bd53a0800000000000000
+      internalID: -6674978639835628624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_26
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 90
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d7f60ca445a8ee0800000000000000
+      internalID: -1258100465863787230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 90
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d4cb4b36bef66d0800000000000000
+      internalID: -2994916413711561344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 97
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76a1e91efe449190800000000000000
+      internalID: -7956647788393945476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 97
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb741cbdbd9b990800000000000000
+      internalID: -7369617578328080627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_30
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 89
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5178b5f65439bd5a0800000000000000
+      internalID: -6495436111121512683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 68
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5740591c65aa3adf0800000000000000
+      internalID: -170105071318268811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac87db92b71c7e930800000000000000
+      internalID: 4172516314507475146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03070957eee748ca0800000000000000
+      internalID: -6015543639620423632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 31
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b40c264d68194c0800000000000000
+      internalID: -4282493523904672972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 66
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7968a0c344b3790800000000000000
+      internalID: -7549365325691185207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 37
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df0e3fabb30f5d90800000000000000
+      internalID: -7106957582333505576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 65
+        width: 142
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc50d1201f3042690800000000000000
+      internalID: -7627967535201319473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_38
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 31
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ba881a5f1cc45a0800000000000000
+      internalID: -6535635698500195522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 28
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18a91a3d199a2580800000000000000
+      internalID: -8851093766835427301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_40
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 40
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2c6a6071a38acc0800000000000000
+      internalID: -3699643223314611487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 31
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c969277e196b3f310800000000000000
+      internalID: 1437693443830879900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 6
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5a21c039ac346e0800000000000000
+      internalID: -1854415888634960418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KTE3_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 30
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46b17725244c000800000000000000
+      internalID: 55242017388324078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KTE3_0: -7408310041464499331
+      KTE3_1: -444776032858729079
+      KTE3_10: 4621233614913624066
+      KTE3_11: -6304943911531640230
+      KTE3_12: 5064065811414427139
+      KTE3_13: -3353944841822127439
+      KTE3_14: 5906602252796176320
+      KTE3_15: -6689796293749040147
+      KTE3_16: 2002444657112678953
+      KTE3_17: -7189349389077094653
+      KTE3_18: -1292120608991479079
+      KTE3_19: 7946010872801696668
+      KTE3_2: 1589567559317286773
+      KTE3_20: 1044600276967403678
+      KTE3_21: 1774990065762749559
+      KTE3_22: -8283905220409648495
+      KTE3_23: 7021152109647997289
+      KTE3_24: 1275944783684829118
+      KTE3_25: -6674978639835628624
+      KTE3_26: -1258100465863787230
+      KTE3_27: -2994916413711561344
+      KTE3_28: -7956647788393945476
+      KTE3_29: -7369617578328080627
+      KTE3_3: 249279612165419431
+      KTE3_30: -6495436111121512683
+      KTE3_31: -170105071318268811
+      KTE3_32: 4172516314507475146
+      KTE3_33: -6015543639620423632
+      KTE3_34: -4282493523904672972
+      KTE3_35: -7549365325691185207
+      KTE3_36: -7106957582333505576
+      KTE3_37: -7627967535201319473
+      KTE3_38: -6535635698500195522
+      KTE3_39: -8851093766835427301
+      KTE3_4: -3572499954205598266
+      KTE3_40: -3699643223314611487
+      KTE3_41: 1437693443830879900
+      KTE3_42: -1854415888634960418
+      KTE3_43: 55242017388324078
+      KTE3_5: 8943924129326310236
+      KTE3_6: 42268753419288901
+      KTE3_7: 3714564124438082824
+      KTE3_8: 2253036133599492141
+      KTE3_9: -655548259791213819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
