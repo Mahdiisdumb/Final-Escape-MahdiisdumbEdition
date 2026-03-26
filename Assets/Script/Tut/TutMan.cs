@@ -49,13 +49,19 @@ public class TutorialManager : MonoBehaviour
 
         menuCanvas.SetActive(false);
 
+        // Enable canvas first
+        infoCanvas1.SetActive(true);
+
         // Show the right info prefab for the selected character
         if (infoController != null)
         {
             infoController.ShowInfo(spawner.selectedCharacterName);
         }
+        else
+        {
+            Debug.LogError("InfoCanvasController not assigned!");
+        }
 
-        infoCanvas1.SetActive(true);
         PlayAudio(info1Clip);
     }
 
