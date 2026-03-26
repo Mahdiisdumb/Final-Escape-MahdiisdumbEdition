@@ -3,39 +3,62 @@ using UnityEngine;
 public class InfoCanvasController : MonoBehaviour
 {
     [Header("Character Info Prefabs")]
-    public CharacterInfoEntry[] characterInfos; // assign in inspector
+    public CharacterInfoEntry[] characterInfos;
 
-    [Header("Parent for Info Canvas")]
-    public Transform canvasParent; // empty GameObject where prefab will be instantiated
+    [Header("Parents")]
+    public Transform info1Parent;
+    public Transform info2Parent;
 
-    private GameObject currentInfoInstance;
+    private GameObject currentInfo1Instance;
+    private GameObject currentInfo2Instance;
 
-    // Call this to show info for a selected character
-    public void ShowInfo(string characterName)
+    private CharacterInfoEntry currentEntry;
+
+    public void LoadCharacterInfo(string characterName)
     {
-        // Remove previous info if exists
-        if (currentInfoInstance != null)
-            Destroy(currentInfoInstance);
+        currentEntry = null;
 
-        // Find info prefab for the selected character
-        CharacterInfoEntry entry = null;
         foreach (var info in characterInfos)
         {
             if (info.characterName == characterName)
             {
-                entry = info;
+                currentEntry = info;
                 break;
             }
         }
 
-        if (entry == null)
+        if (currentEntry == null)
         {
-            Debug.LogError("No info prefab found for character: " + characterName);
+            Debug.LogError("No info found for character: " + characterName);
+        }
+    }
+
+    public void ShowInfo1()
+    {
+        if (currentEntry == null)
+        {
+            Debug.LogError("Character info not loaded!");
             return;
         }
 
-        // Instantiate the info prefab as child of canvasParent
-        currentInfoInstance = Instantiate(entry.infoPrefab, canvasParent);
+        if (currentInfo1Instance != null)
+            Destroy(currentInfo1Instance);
+
+        currentInfo1Instance = Instantiate(currentEntry.info1Prefab, info1Parent);
+    }
+
+    public void ShowInfo2()
+    {
+        if (currentEntry == null)
+        {
+            Debug.LogError("Character info not loaded!");
+            return;
+        }
+
+        if (currentInfo2Instance != null)
+            Destroy(currentInfo2Instance);
+
+        currentInfo2Instance = Instantiate(currentEntry.info2Prefab, info2Parent);
     }
 }
 
@@ -43,5 +66,6 @@ public class InfoCanvasController : MonoBehaviour
 public class CharacterInfoEntry
 {
     public string characterName;
-    public GameObject infoPrefab; // prefab showing controls and evade tips
+    public GameObject info1Prefab; // controls
+    public GameObject info2Prefab; // evade tips
 }

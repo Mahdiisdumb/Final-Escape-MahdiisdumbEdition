@@ -49,28 +49,37 @@ public class TutorialManager : MonoBehaviour
 
         menuCanvas.SetActive(false);
 
-        // Enable canvas first
         infoCanvas1.SetActive(true);
 
-        // Show the right info prefab for the selected character
-        if (infoController != null)
-        {
-            infoController.ShowInfo(spawner.selectedCharacterName);
-        }
-        else
-        {
-            Debug.LogError("InfoCanvasController not assigned!");
-        }
+        // LOAD character info first
+        infoController.LoadCharacterInfo(spawner.selectedCharacterName);
+
+        // THEN show first screen
+        infoController.ShowInfo1();
 
         PlayAudio(info1Clip);
     }
 
     // --- Next button for info1 ---
-    public void NextInfo1()
+    public void StartInfo1()
     {
-        infoCanvas1.SetActive(false);
-        infoCanvas2.SetActive(true);
-        PlayAudio(info2Clip);
+        if (string.IsNullOrEmpty(spawner.selectedCharacterName))
+        {
+            Debug.LogError("No character selected!");
+            return;
+        }
+
+        menuCanvas.SetActive(false);
+
+        infoCanvas1.SetActive(true);
+
+        // LOAD character info first
+        infoController.LoadCharacterInfo(spawner.selectedCharacterName);
+
+        // THEN show first screen
+        infoController.ShowInfo1();
+
+        PlayAudio(info1Clip);
     }
 
     // --- Next button for info2 ---

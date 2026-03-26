@@ -1181,7 +1181,7 @@ MonoBehaviour:
   info2Clip: {fileID: 8300000, guid: ca26b4346eb41314bacd9aab5fdbf39c, type: 3}
   transClip: {fileID: 8300000, guid: b1dd40d0c8600884791d34bef8b891fd, type: 3}
   arenaClip: {fileID: 8300000, guid: 2fccbfa0b3058d14ab856579a4de5c9a, type: 3}
-  spawner: {fileID: 0}
+  spawner: {fileID: 1746716334}
   sonicPrefab: {fileID: 0}
   sonicSpawn: {fileID: 0}
   infoController: {fileID: 2104428556}
