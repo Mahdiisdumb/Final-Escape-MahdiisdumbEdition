@@ -6,28 +6,34 @@ using UnityEngine;
 public class Mahdi : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float walkSpeed = 3f;
+    public float runSpeed = 6f;
+    public float acceleration = 8f;
+    public float jumpForce = 12f;
+    public float skidThreshold = 5f;
 
     [Header("Ability")]
     public float stunRadius = 3f;
-    public LayerMask enemyLayer;
+    public string enemyTag = "Enemy"; // tag-based detection
     public AudioSource stunSound;
+    public Color stunGizmoColor = new Color(1, 0, 0, 0.3f); // semi-transparent red
 
     [Header("Sprites")]
     public SpriteRenderer renderer;
     public Sprite[] idleSprites;
     public Sprite[] walkSprites;
+    public Sprite[] runSprites;
     public Sprite[] jumpSprites;
     public Sprite[] doubleJumpSprites;
     public Sprite[] skidSprites;
-    public Sprite deathSprite; // Mahdi's death sprite
+    public Sprite deathSprite;
     public float frameRate = 0.1f;
 
     [Header("Particles")]
     public ParticleSystem runParticles;
 
     private Rigidbody2D rb;
+    private PlayerDeath deathComponent;
     private int jumpCount = 0;
     private bool facingRight = true;
     private bool isDead = false;
@@ -37,68 +43,68 @@ public class Mahdi : MonoBehaviour
     private int frameIndex;
     private float timer;
 
-    // PlayerDeath reference
-    private PlayerDeath deathComponent;
+    // State control
+    private bool isJumping = false;
+    private bool isDoubleJumping = false;
+    private bool isSkidding = false;
+    private float moveInput = 0f;
+    private float lastMoveInput = 0f;
+    private float currentSpeed = 0f;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         deathComponent = GetComponent<PlayerDeath>();
         if (deathComponent != null)
-        {
-            // Set Mahdi's death sprite in the generic PlayerDeath component
             deathComponent.deathSprite = deathSprite;
-        }
     }
 
     void Update()
     {
         if (isDead) return;
 
+        moveInput = Input.GetAxisRaw("Horizontal");
+
         HandleMovement();
         HandleJump();
-        HandleAbility();
         Animate();
     }
 
     void HandleMovement()
     {
-        float move = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
+        // Smooth acceleration toward target speed
+        float targetSpeed = Mathf.Abs(moveInput) * runSpeed;
+        currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, acceleration * Time.deltaTime);
+        rb.linearVelocity = new Vector2(moveInput * currentSpeed, rb.linearVelocity.y);
 
         // Flip sprite
-        if (move > 0) facingRight = true;
-        if (move < 0) facingRight = false;
+        if (moveInput > 0) facingRight = true;
+        else if (moveInput < 0) facingRight = false;
         renderer.flipX = !facingRight;
 
-        // Choose animation
-        if (Mathf.Abs(move) < 0.01f)
-        {
-            SetAnimation(idleSprites);
-            runParticles?.Stop();
-        }
-        else
-        {
-            SetAnimation(walkSprites);
-            if (runParticles != null && !runParticles.isPlaying) runParticles.Play();
-        }
+        // Skid detection
+        isSkidding = Mathf.Abs(moveInput) > 0.1f &&
+                     Mathf.Sign(moveInput) != Mathf.Sign(lastMoveInput) &&
+                     Mathf.Abs(rb.linearVelocity.x) > skidThreshold;
+
+        lastMoveInput = moveInput;
     }
 
     void HandleJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             if (jumpCount == 0)
             {
                 Jump();
                 jumpCount++;
-                SetAnimation(jumpSprites);
+                isJumping = true;
             }
             else if (jumpCount == 1)
             {
                 Jump();
                 jumpCount++;
-                SetAnimation(doubleJumpSprites);
+                isDoubleJumping = true;
                 StunEnemies();
             }
         }
@@ -109,74 +115,75 @@ public class Mahdi : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
-    void HandleAbility()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            SetAnimation(skidSprites);
-            StunEnemies();
-        }
-    }
-
     void StunEnemies()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, stunRadius, enemyLayer);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, stunRadius);
         foreach (var hit in hits)
         {
-            SonicEXE exe = hit.GetComponent<SonicEXE>();
-            if (exe != null)
+            if (hit.CompareTag(enemyTag))
             {
-                exe.Stun(2f); // stun for 2 seconds
+                SonicEXE exe = hit.GetComponent<SonicEXE>();
+                if (exe != null)
+                    exe.Stun(2f);
             }
         }
-    }
-
-    void SetAnimation(Sprite[] frames)
-    {
-        if (currentFrames == frames) return;
-        currentFrames = frames;
-        frameIndex = 0;
-        timer = 0;
+        stunSound?.Play();
     }
 
     void Animate()
     {
-        if (currentFrames == null || currentFrames.Length == 0) return;
+        // Decide which animation to play based on state
+        Sprite[] targetFrames = idleSprites;
 
+        if (isSkidding) targetFrames = skidSprites;
+        else if (isDoubleJumping) targetFrames = doubleJumpSprites;
+        else if (isJumping) targetFrames = jumpSprites;
+        else
+        {
+            float absSpeed = Mathf.Abs(rb.linearVelocity.x);
+            if (absSpeed < 0.1f) targetFrames = idleSprites;
+            else if (absSpeed < runSpeed * 0.6f) targetFrames = walkSprites;
+            else targetFrames = runSprites;
+        }
+
+        if (currentFrames != targetFrames)
+        {
+            currentFrames = targetFrames;
+            frameIndex = 0;
+            timer = 0;
+        }
+
+        // Animate frames
+        if (currentFrames.Length == 0) return;
         timer += Time.deltaTime;
         if (timer >= frameRate)
         {
-            timer = 0;
+            timer = 0f;
             frameIndex = (frameIndex + 1) % currentFrames.Length;
             renderer.sprite = currentFrames[frameIndex];
         }
     }
 
-    void OnCollisionEnter2D(UnityEngine.Collision2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Ground")) jumpCount = 0;
+        if (col.gameObject.CompareTag("Ground"))
+        {
+            jumpCount = 0;
+            isJumping = false;
+            isDoubleJumping = false;
+        }
     }
 
-    // --- Call this to kill Mahdi ---
     public void Die()
     {
         if (isDead) return;
         isDead = true;
-
-        // Let PlayerDeath handle everything
-        if (deathComponent != null)
-        {
-            deathComponent.Die();
-        }
-        else
-        {
-            Debug.LogError("No PlayerDeath component attached!");
-        }
+        deathComponent?.Die();
     }
 
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
+        Gizmos.color = stunGizmoColor;
         Gizmos.DrawWireSphere(transform.position, stunRadius);
     }
 }

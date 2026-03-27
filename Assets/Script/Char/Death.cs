@@ -10,6 +10,7 @@ public class PlayerDeath : MonoBehaviour
     public float floatUpDistance = 1f; // how high the sprite goes
     public float floatUpSpeed = 2f;
     public float fallSpeed = 5f;
+    public float delayBeforeScene = 5f; // wait 5 seconds before changing scene
 
     private bool isDead = false;
 
@@ -47,12 +48,24 @@ public class PlayerDeath : MonoBehaviour
             yield return null;
         }
 
-        // Fall down off screen
-        while (transform.position.y > -10f) // arbitrary bottom of screen
+        // Optional: small pause at top
+        yield return new WaitForSeconds(0.5f);
+
+        // Fall down smoothly
+        float elapsed = 0f;
+        float totalFallTime = 2f; // total time to fall
+        Vector3 fallStart = transform.position;
+        Vector3 fallEnd = new Vector3(fallStart.x, fallStart.y - 5f, fallStart.z); // arbitrary distance down
+
+        while (elapsed < totalFallTime)
         {
-            transform.position += Vector3.down * fallSpeed * Time.deltaTime;
+            transform.position = Vector3.Lerp(fallStart, fallEnd, elapsed / totalFallTime);
+            elapsed += Time.deltaTime;
             yield return null;
         }
+
+        // Wait fixed delay before scene change
+        yield return new WaitForSeconds(delayBeforeScene);
 
         // Load Bad End scene
         SceneManager.LoadScene("Bad End");

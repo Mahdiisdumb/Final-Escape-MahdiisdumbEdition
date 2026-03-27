@@ -7,11 +7,11 @@ public class TutorialManager : MonoBehaviour
     public static TutorialManager Instance;
 
     [Header("UI Canvases")]
-    public GameObject menuCanvas;        // character selection
-    public GameObject infoCanvas1;       // first info screen container
-    public GameObject infoCanvas2;       // second info screen container
-    public GameObject blackScreenCanvas; // transition
-    public GameObject gameCanvas;        // actual gameplay HUD
+    public GameObject menuCanvas;
+    public GameObject infoCanvas1;
+    public GameObject infoCanvas2;
+    public GameObject blackScreenCanvas;
+    public GameObject gameCanvas;
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -38,9 +38,21 @@ public class TutorialManager : MonoBehaviour
         Instance = this;
     }
 
-    // --- Called by character button ---
+    // --- START FLOW ---
     public void StartInfo1()
     {
+        if (spawner == null)
+        {
+            Debug.LogError("Spawner is NULL");
+            return;
+        }
+
+        if (infoController == null)
+        {
+            Debug.LogError("InfoController is NULL");
+            return;
+        }
+
         if (string.IsNullOrEmpty(spawner.selectedCharacterName))
         {
             Debug.LogError("No character selected!");
@@ -48,83 +60,105 @@ public class TutorialManager : MonoBehaviour
         }
 
         menuCanvas.SetActive(false);
-
         infoCanvas1.SetActive(true);
 
-        // LOAD character info first
+        // Load + show character-specific info
         infoController.LoadCharacterInfo(spawner.selectedCharacterName);
-
-        // THEN show first screen
         infoController.ShowInfo1();
 
         PlayAudio(info1Clip);
     }
 
-    // --- Next button for info1 ---
-    public void StartInfo1()
+    // --- NEXT: INFO1 -> INFO2 ---
+    public void NextInfo1()
     {
-        if (string.IsNullOrEmpty(spawner.selectedCharacterName))
+        if (infoController == null)
         {
-            Debug.LogError("No character selected!");
+            Debug.LogError("InfoController is NULL");
             return;
         }
 
-        menuCanvas.SetActive(false);
+        infoCanvas1.SetActive(false);
+        infoCanvas2.SetActive(true);
 
-        infoCanvas1.SetActive(true);
+        infoController.ShowInfo2();
 
-        // LOAD character info first
-        infoController.LoadCharacterInfo(spawner.selectedCharacterName);
-
-        // THEN show first screen
-        infoController.ShowInfo1();
-
-        PlayAudio(info1Clip);
+        PlayAudio(info2Clip);
     }
 
-    // --- Next button for info2 ---
+    // --- NEXT: INFO2 -> GAME ---
     public void NextInfo2()
     {
         infoCanvas2.SetActive(false);
         StartCoroutine(TransitionToGame());
     }
 
-    // --- Black screen transition ---
+    // --- TRANSITION ---
     private IEnumerator TransitionToGame()
     {
-        blackScreenCanvas.SetActive(true);
+        if (blackScreenCanvas != null)
+            blackScreenCanvas.SetActive(true);
+
         PlayAudio(transClip);
 
         yield return new WaitForSeconds(2f);
 
-        blackScreenCanvas.SetActive(false);
+        if (blackScreenCanvas != null)
+            blackScreenCanvas.SetActive(false);
+
         StartGame();
     }
 
-    // --- Enable gameplay ---
+    // --- START GAME ---
     private void StartGame()
     {
-        gameCanvas.SetActive(true);
+        if (gameCanvas != null)
+            gameCanvas.SetActive(true);
 
-        // Spawn selected character
+        if (spawner == null)
+        {
+            Debug.LogError("Spawner missing!");
+            return;
+        }
+
+        // Spawn player
         spawner.SpawnCharacter();
-        playerInstance = GameObject.FindWithTag("Player"); // assumes prefab has "Player" tag
+        playerInstance = GameObject.FindWithTag("Player");
+
+        if (playerInstance == null)
+        {
+            Debug.LogError("Player not found after spawning!");
+            return;
+        }
 
         // Spawn SonicEXE
-        if (sonicPrefab != null && playerInstance != null)
+        if (sonicPrefab != null && sonicSpawn != null)
         {
             sonicInstance = Instantiate(sonicPrefab, sonicSpawn.position, Quaternion.identity);
+
             SonicEXE exe = sonicInstance.GetComponent<SonicEXE>();
-            exe.player = playerInstance.transform;
+            if (exe != null)
+            {
+                exe.player = playerInstance.transform;
+            }
+            else
+            {
+                Debug.LogError("SonicEXE script missing on prefab!");
+            }
+        }
+        else
+        {
+            Debug.LogError("Sonic prefab or spawn missing!");
         }
 
         PlayAudio(arenaClip);
     }
 
-    // --- Play audio helper ---
+    // --- AUDIO ---
     private void PlayAudio(AudioClip clip)
     {
         if (clip == null || audioSource == null) return;
+
         audioSource.clip = clip;
         audioSource.Play();
     }
