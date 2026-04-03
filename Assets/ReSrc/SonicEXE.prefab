@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -109,9 +109,9 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 6
   flyingSprites:
-  - {fileID: 6107538573840057484, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
-  - {fileID: 6760922167968694430, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
-  - {fileID: 8755520523524161116, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -8112649336515339468, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -8977480748878332481, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -5945649719293329812, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
   stunnedSprites:
   - {fileID: 8788759885022037419, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
   - {fileID: -926051976921727420, guid: b24332189305d06469d5f4e9abe0c407, type: 3}

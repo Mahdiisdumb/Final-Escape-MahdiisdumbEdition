@@ -37,8 +37,19 @@ public class SonicEXE : MonoBehaviour
     void Update()
     {
         Animate();
+
         if (player == null || isStunned) return;
+
+        Vector2 direction = (player.position - transform.position).normalized;
+
+        // move
         transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+
+        // flip sprite based on direction
+        if (direction.x > 0)
+            renderer.flipX = false;
+        else if (direction.x < 0)
+            renderer.flipX = true;
     }
 
     public void Stun(float duration)

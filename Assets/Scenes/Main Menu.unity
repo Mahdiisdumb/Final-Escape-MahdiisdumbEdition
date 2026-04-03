@@ -280,7 +280,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ff40ccd3bab0d2d46869e458da6713f4, type: 3}
+  m_Resource: {fileID: 8300000, guid: e32cb413cf7d0444480021a70b6ffdf2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1144,7 +1144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 370, y: 283}
+  m_AnchoredPosition: {x: -334, y: -568}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &878722514
@@ -1167,17 +1167,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MAHDIISDUMB
+  m_text: 'MAHDIISDUMB
+
+    (HORRID) [V0.01]'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 411562de26de613408acb1b0f7216b07, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 411562de26de613408acb1b0f7216b07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 192c2824bc1f953489b56d66a952e6c6, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 192c2824bc1f953489b56d66a952e6c6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292542208
-  m_fontColor: {r: 0, g: 1, b: 0.85353756, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1267,7 +1269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 411562de26de613408acb1b0f7216b07, type: 2}
+  - {fileID: 2180264, guid: 192c2824bc1f953489b56d66a952e6c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1548,6 +1550,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0

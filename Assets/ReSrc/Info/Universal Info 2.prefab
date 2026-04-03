@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SonicExeTaunt
   spriteRenderer: {fileID: 70411262377466705}
   tauntSprites:
-  - {fileID: 6107538573840057484, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
-  - {fileID: 6760922167968694430, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
-  - {fileID: 8755520523524161116, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -8112649336515339468, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -8977480748878332481, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
+  - {fileID: -5945649719293329812, guid: b24332189305d06469d5f4e9abe0c407, type: 3}
   tauntSpeed: 0.5
 --- !u!1 &4919089336410140841
 GameObject:

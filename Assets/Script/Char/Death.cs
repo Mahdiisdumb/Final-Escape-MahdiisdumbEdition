@@ -11,6 +11,7 @@ public class PlayerDeath : MonoBehaviour
     public float floatUpSpeed = 2f;
     public float fallSpeed = 5f;
     public float delayBeforeScene = 5f; // wait 5 seconds before changing scene
+    public int badsceneindex = 0; // index of such so it would load also subject to change because scene indexes are ass thats mean =(
 
     private bool isDead = false;
 
@@ -28,7 +29,21 @@ public class PlayerDeath : MonoBehaviour
         {
             if (s != this) s.enabled = false;
         }
+        // Disable all colliders
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        foreach (var col in colliders)
+        {
+            col.enabled = false;
+        }
 
+        // Stop physics movement completely
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.bodyType = RigidbodyType2D.Kinematic; // or Static
+        }
         // Play death sound
         if (deathAudio != null) deathAudio.Play();
 
@@ -65,9 +80,10 @@ public class PlayerDeath : MonoBehaviour
         }
 
         // Wait fixed delay before scene change
-        yield return new WaitForSeconds(delayBeforeScene);
+        yield return new WaitForSecondsRealtime(delayBeforeScene);
 
         // Load Bad End scene
-        SceneManager.LoadScene("Bad End");
+        Debug.Log("ABOUT TO LOAD SCENE");
+        SceneManager.LoadScene(badsceneindex);
     }
 }
